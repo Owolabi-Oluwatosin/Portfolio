@@ -8,7 +8,7 @@ type Props = {
 };
 
 const Projects = ({ projects }: Props) => {
-  console.log(projects);
+  //console.log(projects);
   return (
     <motion.div
       initial={{ opacity: 0 }}
