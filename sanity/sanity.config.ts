@@ -1,9 +1,8 @@
 import {defineConfig, isDev} from 'sanity/lib/exports'
 import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
-const devOnlyPlugins = [deskTool(), visionTool()]
+const devOnlyPlugins = [deskTool()]
 
 export default defineConfig({
   name: 'default',
