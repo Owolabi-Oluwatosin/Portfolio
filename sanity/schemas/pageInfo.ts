@@ -1,4 +1,4 @@
-import {defineField, defineType} from 'sanity'
+import {defineField, defineType} from 'sanity/lib/exports'
 
 export default defineType({
   name: 'pageInfo',
@@ -55,7 +55,7 @@ export default defineType({
       name: 'socials',
       title: 'Socials',
       type: 'array',
-      of: [{ type: "reference", to: { type: "social" }}],
+      of: [{type: 'reference', to: {type: 'social'}}],
     }),
   ],
 })
